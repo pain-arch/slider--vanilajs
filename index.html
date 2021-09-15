@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tailwind css link -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Fancy Slider</title>
+</head>
+<body>
+    <div class="flex h-screen justify-center items-center">
+        <div class="text-center">
+            <img class="p-5 img-box" id="images" src="/images/img-1.jpg" alt="image">
+            <button onclick="startSlider()" class="mt-5 px-6 py-3 bg-blue-500 text-white rounded-xl">Start</button>
+            <button onclick="stopSlider()" class="mt-5 px-6 py-3 bg-red-500 text-white rounded-xl">Stop</button>
+        </div>
+    </div>
+    
+    <!-- javascript link -->
+    <script src="js/main.js"></script>
+</body>
+</html>
